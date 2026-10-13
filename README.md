@@ -122,24 +122,26 @@ El trabajo incluye:
 
 ## 8. Issues seleccionados para seguimiento
 
-Estos cuatro Issues representan tareas pendientes, riesgos, mejoras y controles relevantes:
+Estos cuatro Issues siguen abiertos y representan tareas, riesgos y validaciones relevantes para la siguiente etapa:
 
-1. [#14 Diseñar la API para la gestión de citas](https://github.com/unkserious/CitaFacil/issues/14) — tarea técnica pendiente para conectar frontend y backend.
-2. [#15 Configurar copias de seguridad y recuperación de datos](https://github.com/unkserious/CitaFacil/issues/15) — riesgo relacionado con pérdida o recuperación de información.
-3. [#18 Implementar el control de permisos por rol](https://github.com/unkserious/CitaFacil/issues/18) — control necesario para proteger las funciones administrativas.
-4. [#20 Preparar pruebas funcionales de autenticación](https://github.com/unkserious/CitaFacil/issues/20) — tarea de validación para registro e inicio de sesión.
+1. [#14 Diseñar la API para la gestión de citas](https://github.com/unkserious/CitaFacil/issues/14) — **Por hacer**; tarea técnica para definir la comunicación entre frontend y backend.
+2. [#15 Configurar copias de seguridad y recuperación de datos](https://github.com/unkserious/CitaFacil/issues/15) — **Backlog**; riesgo de pérdida de información.
+3. [#18 Implementar el control de permisos por rol](https://github.com/unkserious/CitaFacil/issues/18) — **Por hacer**; control necesario para proteger las funciones administrativas.
+4. [#20 Preparar pruebas funcionales de autenticación](https://github.com/unkserious/CitaFacil/issues/20) — **Por hacer**; verificación pendiente para registro e inicio de sesión.
 
-Los Issues de historias de usuario también se mantienen como referencia: #7, #8, #9, #10 y #11.
+Los Issues de historias de usuario #7–#11 se conservan como evidencia y están en **Finalizado** en el tablero porque sus historias y criterios de aceptación quedaron documentados.
 
 ## 9. Estado actual del tablero
 
-- **finalizado:** levantamiento de información, requisitos, historias de usuario, trazabilidad y documentación base.
-- **en revisión:** modelos UML, coherencia entre diagramas y propuesta de arquitectura.
-- **por hacer:** registro e inicio de sesión, reserva de citas y gestión de usuarios y roles.
-- **backlog:** diseño de API, esquema de base de datos, copias de seguridad y pruebas funcionales.
-- **en progreso:** preparación de la siguiente etapa técnica de implementación.
+El [Project CitaFacil](https://github.com/users/unkserious/projects/2/views/1) fue revisado y sus 21 tarjetas quedaron distribuidas según el avance documentado:
 
-El tablero debe mantenerse actualizado cuando una tarea cambie de estado.
+- **Finalizado (10):** #2 modelo de datos inicial, #3 requisitos, #6 gestión de roles, #7–#11 historias de usuario, #13 casos de uso y criterios de aceptación, y #19 reglas de validación de reservas.
+- **En revisión (1):** #4 diseño de registro e inicio de sesión; el flujo base está modelado y queda validar el detalle.
+- **Por hacer (7):** #5 módulo de reserva, #12 estructura inicial del proyecto, #14 API, #16 interfaces de agenda y disponibilidad, #17 esquema de base de datos, #18 permisos por rol y #20 pruebas funcionales de autenticación.
+- **Backlog (3):** #1 panel administrativo, #15 copias de seguridad y recuperación, y #21 pruebas de integración.
+- **En progreso (0):** no hay implementación activa; el trabajo está en etapa de documentación y planificación técnica.
+
+Los Issues continúan abiertos para conservar el seguimiento. Las columnas del tablero reflejan si el entregable documentado ya se completó o si la implementación y validación siguen pendientes.
 
 ## 10. Herramientas utilizadas
 
