@@ -1,6 +1,6 @@
 # CitaFacil
 
-Sistema digital académico para la gestión de citas médicas. Este repositorio contiene la documentación técnica, los requisitos, los modelos UML y la planificación inicial del sistema.
+Sistema digital académico para la gestión de citas médicas. Este README resume la propuesta, la arquitectura y el seguimiento de CitaFacil. Actualmente es el único archivo en la raíz del repositorio; los documentos completos y los diagramas elaborados todavía no están incorporados como archivos aquí.
 
 > Proyecto académico de Ingeniería de Software I. El sistema se trabaja como una propuesta ficticia debido a que la asignatura Diseño de Interfaz de Usuario no se encontraba disponible.
 
@@ -26,15 +26,15 @@ La gestión manual de citas puede provocar pérdida de información, duplicació
 
 ## 4. Enfoque metodológico y gestión
 
-Se utiliza un enfoque ágil con Kanban porque permite visualizar el trabajo, priorizar las tareas y controlar el flujo de avance de forma continua.
+Se adopta un enfoque ágil combinado **Scrum + Kanban (Scrumban)**. Scrum orienta la organización iterativa del trabajo y las prioridades; Kanban permite visualizar el flujo y el estado de las tareas en GitHub Projects.
 
-El proyecto se organiza en un tablero de GitHub Projects con las columnas:
+El tablero utiliza las columnas:
 
-- **backlog:** ideas y tareas todavía no priorizadas.
-- **por hacer:** tareas priorizadas y listas para iniciar.
-- **en progreso:** tareas que se están trabajando.
-- **en revisión:** tareas terminadas técnicamente pendientes de validación.
-- **finalizado:** tareas verificadas y aceptadas.
+- **Backlog:** ideas y tareas pendientes de priorización.
+- **Por hacer:** tareas priorizadas y listas para iniciar.
+- **En progreso:** tareas que se están trabajando activamente.
+- **En revisión:** entregables pendientes de validación.
+- **Finalizado:** entregables revisados y aceptados.
 
 Los roles definidos para el inicio son:
 
@@ -94,21 +94,18 @@ Flujo principal de reserva:
 
 ## 6. Requisitos y evidencias técnicas
 
-El trabajo incluye:
+Durante el proyecto se elaboraron los siguientes artefactos:
 
 - Problema y necesidad principal del sistema.
-- Técnica breve de levantamiento de información.
-- Cinco hallazgos.
+- Técnica breve de levantamiento de información y cinco hallazgos.
 - Cinco historias de usuario.
 - Requisitos funcionales y no funcionales con prioridades y criterios de aceptación.
 - Tabla de trazabilidad entre hallazgos, historias, requisitos e Issues.
-- Diagrama de casos de uso.
-- Diagrama de clases.
-- Diagrama de secuencia para reservar una cita.
-- Diagrama de colaboración para reservar una cita.
-- Diagrama de actividades para el proceso de reserva.
-- Definición de arquitectura y organización frontend/backend.
+- Diagramas de casos de uso, clases, secuencia, colaboración y actividades.
+- Propuesta de arquitectura y organización frontend/backend.
 - Gestión del avance mediante GitHub Projects.
+
+**Estado de los archivos:** estos materiales se trabajaron en documentos académicos y Visual Paradigm Online, pero todavía no están adjuntos ni versionados en este repositorio. La raíz del repositorio contiene actualmente solo este README.md.
 
 ## 7. Registro breve de cambios
 
@@ -133,15 +130,15 @@ Los Issues de historias de usuario #7–#11 se conservan como evidencia y están
 
 ## 9. Estado actual del tablero
 
-El [Project CitaFacil](https://github.com/users/unkserious/projects/2/views/1) fue revisado y sus 21 tarjetas quedaron distribuidas según el avance documentado:
+El [Project CitaFacil](https://github.com/users/unkserious/projects/2/views/1) contiene 21 tarjetas distribuidas según el avance documentado:
 
 - **Finalizado (10):** #2 modelo de datos inicial, #3 requisitos, #6 gestión de roles, #7–#11 historias de usuario, #13 casos de uso y criterios de aceptación, y #19 reglas de validación de reservas.
-- **En revisión (1):** #4 diseño de registro e inicio de sesión; el flujo base está modelado y queda validar el detalle.
+- **En revisión (1):** #4 diseño de registro e inicio de sesión; el flujo base está modelado y falta validar el detalle.
 - **Por hacer (7):** #5 módulo de reserva, #12 estructura inicial del proyecto, #14 API, #16 interfaces de agenda y disponibilidad, #17 esquema de base de datos, #18 permisos por rol y #20 pruebas funcionales de autenticación.
 - **Backlog (3):** #1 panel administrativo, #15 copias de seguridad y recuperación, y #21 pruebas de integración.
-- **En progreso (0):** no hay implementación activa; el trabajo está en etapa de documentación y planificación técnica.
+- **En progreso (0):** no hay implementación activa; el proyecto está en documentación y planificación técnica.
 
-Los Issues continúan abiertos para conservar el seguimiento. Las columnas del tablero reflejan si el entregable documentado ya se completó o si la implementación y validación siguen pendientes.
+Los diez Issues asociados a elementos finalizados están cerrados. Las otras once tareas continúan abiertas en GitHub para su seguimiento.
 
 ## 10. Herramientas utilizadas
 
@@ -154,15 +151,17 @@ Los Issues continúan abiertos para conservar el seguimiento. Las columnas del t
 
 ## 11. Nota técnica de versión
 
-### Versión 0.1.0 — versión inicial controlada
+### Versión documental 0.1.0 — línea base inicial
 
-**Contenido:** documentación base de CitaFacil, alcance funcional, requisitos, historias de usuario, matriz de requisitos, trazabilidad, modelos UML, propuesta de arquitectura y organización del trabajo.
+Esta es una línea base de documentación y planificación, no una versión ejecutable del sistema.
 
-**Cambios controlados:** se registraron los avances en Issues y GitHub Projects; se separaron los casos de uso Cancelar cita y Reprogramar cita; se corrigieron las relaciones UML de inclusión y extensión; se añadió el límite del sistema CitaFacil y las asociaciones faltantes de los actores.
+**Contenido:** alcance funcional, propuesta de arquitectura, registro de cambios, Issues seleccionados y estado del tablero. Los documentos completos de requisitos y los diagramas UML se elaboraron fuera del repositorio y todavía falta incorporarlos aquí.
 
-**Pendientes:** implementación real del frontend y backend, diseño definitivo de la API, creación de la base de datos, control de permisos, pruebas automatizadas, copias de seguridad y despliegue.
+**Cambios controlados:** se registraron cinco avances; se actualizaron los estados de las 21 tarjetas; se cerraron en GitHub los Issues cuyos entregables documentales quedaron finalizados; se separaron los casos de uso Cancelar cita y Reprogramar cita; y se corrigieron las relaciones UML de inclusión y extensión junto con el límite del sistema.
 
-**Próximo paso técnico:** convertir los requisitos priorizados en una estructura inicial de frontend y backend, definir los endpoints de autenticación, disponibilidad y reservas, y crear el esquema persistente de usuarios y citas.
+**Pendientes:** incorporar al repositorio los archivos de requisitos, trazabilidad y modelos UML; iniciar la implementación de frontend y backend; diseñar la API; crear la base de datos; implementar permisos; y preparar pruebas, copias de seguridad e integración.
+
+**Próximo paso técnico:** añadir al repositorio las evidencias documentales y modelos UML ya elaborados; luego configurar la estructura inicial del proyecto (#12) y diseñar la API de citas (#14).
 
 ## Estado del proyecto
 
